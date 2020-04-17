@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="BonsaiBox.Top" size="3.000000 1.250000"/>
+        <ImageTarget name="BonsaiBox.Left" size="1.250000 3.250000"/>
+        <ImageTarget name="BonsaiBox.Front" size="3.000000 3.250000"/>
+        <ImageTarget name="BonsaiBox.Right" size="1.250000 3.250000"/>
+        <ImageTarget name="BonsaiBox.Back" size="3.000000 3.250000"/>
+        <ImageTarget name="BonsaiBox.Bottom" size="3.000000 1.250000"/>
+        <MultiTarget name="BonsaiBox">
+            <Part name="BonsaiBox.Left" translation="-1.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="BonsaiBox.Right" translation="1.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="BonsaiBox.Front" translation="0 0 0.625" rotation="AD: 1 0 0 0"/>
+            <Part name="BonsaiBox.Back" translation="0 0 -0.625" rotation="AD: 0 1 0 180"/>
+            <Part name="BonsaiBox.Top" translation="0 1.625 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="BonsaiBox.Bottom" translation="0 -1.625 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
