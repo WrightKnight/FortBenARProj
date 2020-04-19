@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cf6e23edb32e8a4d8f49eb3f31e9ddf, type: 3}
+  m_Name: Example Tour
+  m_EditorClassIdentifier: 
+  TourName: Example Tour
+  description: A quick and easy way to show off stuff.
+  tourEvents:
+  - {fileID: 11400000, guid: d8e426a5cb39e674e91e3181c0b3914c, type: 2}
+  - {fileID: 11400000, guid: 4ca9f16fd0608a547800055f89b22d0f, type: 2}
+  - {fileID: 11400000, guid: c692a38f181b01648823ef2514ce5469, type: 2}
+  - {fileID: 11400000, guid: 3e476022e2940814bb0baac3101728c2, type: 2}
+  - {fileID: 11400000, guid: 601c1c97083e32547a8185ce4851b610, type: 2}

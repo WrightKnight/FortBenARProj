@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38cc7b5617dea2d4bab6602db397b67d, type: 3}
+  m_Name: Conclusion
+  m_EditorClassIdentifier: 
+  description: Wasn't that fun? I'm afraid that's all there is to this little tour
+    though.
+  Location: {fileID: 0}
+  IsQuestion: 0
+  AnswerA: 
+  AIsCorrect: 0
+  AnswerB: 
+  BIsCorrect: 0
+  AnswerC: 
+  CIsCorrect: 0
+  AnswerD: 
+  DIsCorrect: 0
+  IsCorrectText: That's Correct!
+  IsIncorrectText: I'm afraid that's... not quite right.
+  isTheEnd: 0

@@ -1,18 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class TimelineEvent : MonoBehaviour
+
+[CreateAssetMenu(fileName = "New Timeline Event", menuName = "FortBenAR/TimelineEvent")]
+public class TimelineEvent : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public string PlaceName;
+    public string Date;
+    public PictureLibrary pictureLibrary;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [TextArea(3, 5)]
+    public string description = "Description";
 }

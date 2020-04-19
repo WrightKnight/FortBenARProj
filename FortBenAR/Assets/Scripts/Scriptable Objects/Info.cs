@@ -1,18 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Info : MonoBehaviour
+
+[CreateAssetMenu(fileName = "New Info Object", menuName = "FortBenAR/Info")]
+public class Info : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public string PlaceName;
+    public PictureLibrary pictureLibrary;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [TextArea(3, 5)]
+    public string description = "Description";
 }

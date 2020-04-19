@@ -1,18 +1,33 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class TourEvent : MonoBehaviour
+
+[CreateAssetMenu(fileName = "New Tour Event", menuName = "FortBenAR/TourEvent")]
+public class TourEvent : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [TextArea(3, 5)]
+    public string description = "Text";
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public Info Location;
+
+    public bool IsQuestion;
+
+    public string AnswerA;
+    public bool AIsCorrect;
+
+    public string AnswerB;
+    public bool BIsCorrect;
+
+    public string AnswerC;
+    public bool CIsCorrect;
+
+    public string AnswerD;
+    public bool DIsCorrect;
+
+    [TextArea(3, 5)]
+    public string IsCorrectText = "That's Correct!";
+
+    [TextArea(3, 5)]
+    public string IsIncorrectText = "I'm afraid that's... not quite right.";
+
+    public bool isTheEnd;
 }
